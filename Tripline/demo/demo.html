@@ -13,12 +13,42 @@
         text-align: center;
         padding:5px;
       }
+      .tln-hero-image{
+        background-image: url("photo.jpg");
+      }
     </style>
     <title>Tripline CSS</title>
   </head>
   <body>
     <h1>Tripline CSS</h1>
     A CSS Framework for creating a better website with material design.<br>
+    <h2>Hero Image</h2>
+    Hero Image Demo.<br>
+    <p id="myDiv10">
+      &lt;div class="tln-hero-image"&gt;<br>
+        &lt;div class="tln-hero-text"&gt;<br>
+          &lt;h1 style="font-size:60px">Hero Image&lt;/h1&gt;<br>
+          &lt;p&gt;Photo by Yuiizaa September on Unsplash&lt;/p&gt;<br>
+          &lt;a class="tln-button tln-link tln-red" href="https://unsplash.com/photos/Kz8xmA35IVw"&gt;View Photo&lt;/a&gt;&lt;br&gt;<br>
+        &lt;/div&gt;<br>
+      &lt;/div&gt;
+    </p>
+    <div class="tln-hero-image">
+      <div class="tln-hero-text">
+        <h1 style="font-size:60px">Hero Image</h1>
+        <p>Photo by Yuiizaa September on Unsplash</p>
+        <a class="tln-button tln-link tln-red" href="https://unsplash.com/photos/Kz8xmA35IVw">View Photo</a><br>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
     <h2>Buttons</h2>
     Button can be added by using following code:<br>
     <p id="myDiv">
@@ -213,6 +243,7 @@ Tooltips Demo.<br>
 
 
 
+
   </body>
 
 
@@ -247,6 +278,8 @@ w3CodeColor(document.getElementById("myDiv6"));
 w3CodeColor(document.getElementById("myDiv7"));
 w3CodeColor(document.getElementById("myDiv8"));
 w3CodeColor(document.getElementById("myDiv9"));
+
+w3CodeColor(document.getElementById("myDiv10"));
 
 function w3CodeColor(elmnt, mode) {
   var lang = (mode || "html");
