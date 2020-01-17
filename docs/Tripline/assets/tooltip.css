@@ -1,0 +1,15 @@
+.tln-text {
+  visibility: hidden;
+  width: 130px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 7px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tln-tooltip:hover .tln-text {
+  visibility: visible;
+}

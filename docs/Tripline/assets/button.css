@@ -1,0 +1,13 @@
+.tln-link{
+  background-color: hotpink;
+  text-decoration: none;
+  color: white;
+}
+.tln-button{
+  padding: 0.45%;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

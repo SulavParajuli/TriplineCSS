@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tripline/tripline.css">
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+      }
+      .grid-item {
+        text-align: center;
+        padding:5px;
+      }
+      .tln-hero-image{
+        background-image: url("photo.jpg");
+      }
+    </style>
+    <title>Tripline CSS</title>
+  </head>
+  <body>
+    <h1>Tripline CSS</h1>
+    A CSS Framework for creating a better website with material design.<br>
+    <h2>Hero Image</h2>
+    Hero Image Demo.<br>
+    <p id="myDiv10">
+      &lt;div class="tln-hero-image"&gt;<br>
+        &lt;div class="tln-hero-text"&gt;<br>
+          &lt;h1 style="font-size:60px">Hero Image&lt;/h1&gt;<br>
+          &lt;p&gt;Photo by Yuiizaa September on Unsplash&lt;/p&gt;<br>
+          &lt;a class="tln-button tln-link tln-red" href="https://unsplash.com/photos/Kz8xmA35IVw"&gt;View Photo&lt;/a&gt;&lt;br&gt;<br>
+        &lt;/div&gt;<br>
+      &lt;/div&gt;
+    </p>
+    <div class="tln-hero-image">
+      <div class="tln-hero-text">
+        <h1 style="font-size:60px">Hero Image</h1>
+        <p>Photo by Yuiizaa September on Unsplash</p>
+        <a class="tln-button tln-link tln-red" href="https://unsplash.com/photos/Kz8xmA35IVw">View Photo</a><br>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <h2>Buttons</h2>
+    Button can be added by using following code:<br>
+    <p id="myDiv">
+    &lt;button class="tln-button"&gt;BUTTON #1 &lt;/button&gt;<br>
+    <button class="tln-button">BUTTON #1</button><br>
+    &lt;button class="tln-button tln-red"&gt;BUTTON #2 &lt;/button&gt;<br>
+    <button class="tln-button tln-red">BUTTON #2</button><br>
+    &lt;button class="tln-button tln-blue"&gt;BUTTON #3 &lt;/button&gt;<br>
+    <button class="tln-button tln-blue">BUTTON #3</button><br>
+    &lt;button class="tln-button tln-green"&gt;BUTTON #4 &lt;/button&gt;<br>
+    <button class="tln-button tln-green">BUTTON #4</button><br>
+    &lt;button class="tln-button tln-yellow"&gt;BUTTON #5 &lt;/button&gt;<br>
+    <button class="tln-button tln-yellow">BUTTON #5</button><br>
+    &lt;button class="tln-button tln-yellow"&gt;&lt;a&gt;Link Button&lt;a&gt;&lt;/button&gt;<br>
+    <button class="tln-button tln-link"><a>Link Button</a></button><br>
+    </p><br>
+    <h2>Cards</h2>
+    Cards can be added by using following code:<br>
+
+    <div class="grid-container">
+  <div class="grid-item">
+    <p id="myDiv1">
+    &lt;div class="tln-card tln-red"&gt;<br>
+     &lt;div class="tln-container"&gt;<br>
+       &lt;h4&gt;&lt;b&gt;Card #1&lt;/b&gt;&lt;/h4&gt;<br>
+       &lt;p&gt;I am a model of cards with tripline css.&lt;/p&gt;<br>
+    &lt;/div&gt;<br>
+   &lt;/div&gt;<br>
+ </p>
+    <div class="tln-card tln-red">
+     <div class="tln-container">
+       <h4><b>Card #1</b></h4>
+       <p>I am a model of cards with tripline css.</p>
+    </div>
+   </div>
+  </div>
+  <div class="grid-item">
+    <p id="myDiv4">
+    &lt;div class="tln-card tln-green"&gt;<br>
+     &lt;div class="tln-container"&gt;<br>
+       &lt;h4&gt;&lt;b&gt;Card #2&lt;/b&gt;&lt;/h4&gt;<br>
+       &lt;p&gt;I am a model of cards with tripline css.&lt;/p&gt;<br>
+    &lt;/div&gt;<br>
+   &lt;/div&gt;<br>
+ </p>
+    <div class="tln-card tln-green">
+     <div class="tln-container">
+       <h4><b>Card #2</b></h4>
+       <p>I am a model of cards with tripline css.</p>
+    </div>
+   </div>
+  </div>
+  <div class="grid-item">
+    <p id="myDiv5">
+    &lt;div class="tln-card tln-green"&gt;<br>
+     &lt;div class="tln-container"&gt;<br>
+       &lt;h4&gt;&lt;b&gt;Card #3&lt;/b&gt;&lt;/h4&gt;<br>
+       &lt;p&gt;I am a model of cards with tripline css.&lt;/p&gt;<br>
+    &lt;/div&gt;<br>
+   &lt;/div&gt;<br>
+ </p>
+    <div class="tln-card tln-blue">
+     <div class="tln-container">
+       <h4><b>Card #3</b></h4>
+       <p>I am a model of cards with tripline css.</p>
+    </div>
+   </div>
+  </div>
+  <div class="grid-item">
+    <p id="myDiv6">
+    &lt;div class="tln-card tln-green"&gt;<br>
+     &lt;div class="tln-container"&gt;<br>
+       &lt;h4&gt;&lt;b&gt;Card #4&lt;/b&gt;&lt;/h4&gt;<br>
+       &lt;p&gt;I am a model of cards with tripline css.&lt;/p&gt;<br>
+    &lt;/div&gt;<br>
+   &lt;/div&gt;<br>
+ </p>
+    <div class="tln-card tln-yellow">
+     <div class="tln-container">
+       <h4><b>Card #4</b></h4>
+       <p>I am a model of cards with tripline css.</p>
+    </div>
+   </div>
+  </div>
+</div>
+
+
+
+<h2>Forms</h2>
+Forms can be styled by adding .tln-form class to the form element.:<br>
+<p id="myDiv2">
+  &lt;form&gt;<br>
+    &lt;div class="tln-form"&gt;<br>
+      &lt;label for="form1"&gt;Username&lt;/label&gt;<br>
+      &lt;input class="tln-input"/&gt;<br>
+    &lt;/div&gt;<br>
+      &lt;div class="tln-form"&gt;<br>
+        &lt;label for="pass"&gt;Password&lt;/label&gt;<br>
+        &lt;input class="tln-input" type="password"/&gt;<br>
+      &lt;/div&gt;<br>
+      &lt;div class="tln-form"&gt;<br>
+        &lt;input class="tln-checkbox" type="checkbox"/&gt;Remember Me<br>
+      &lt;/div&gt;<br>
+      &lt;div class="tln-form"&gt;<br>
+        &lt;input class="tln-blue" type="submit"/&gt;<br>
+      &lt;/div&gt;<br>
+    &lt;/form&gt;<br>
+</p>
+<form>
+  <div class="tln-form">
+    <label for="form1">Username</label>
+    <input class="tln-input"/>
+  </div>
+  <div class="tln-form">
+    <label for="pass">Password</label>
+    <input class="tln-input" type="password"/>
+  </div>
+  <div class="tln-form">
+    <input class="tln-checkbox" type="checkbox"/>Remember Me
+  </div>
+  <div class="tln-form">
+    <input type="Submit" class="tln-blue"/>
+  </div>
+</form><br>
+
+
+<h2>Other Forms Elements</h2>
+Some other forms elements supported by Tripline CSS are "Select" and "textarea".<br>
+
+<h4>Textarea</h4>
+<p id="myDiv7">
+  &lt;div class="tln-form"&gt;<br>
+    &lt;textarea&gt;&lt;/textarea&gt;<br>
+  &lt;/div&gt;<br>
+</p>
+<div class="tln-form">
+  <textarea></textarea>
+</div>
+
+<h4>Select</h4>
+<p id="myDiv8">
+  &lt;div class="tln-form"&gt;<br>
+    &lt;select&gt;<br>
+      &lt;option value="0"&gt;Select car:&lt;/option&gt;<br>
+      &lt;option value="1"&gt;Maruti&lt;/option&gt;<br>
+      &lt;option value="2"&gt;Honda&lt;/option&gt;<br>
+      &lt;option value="3"&gt;BMW&lt;/option&gt;<br>
+      &lt;option value="4"&gt;Kia&lt;/option&gt;<br>
+    &lt;/select&gt;<br>
+  &lt;/div&gt;<br>
+</p>
+
+<div class="tln-form">
+  <select>
+    <option value="0">Select car:</option>
+    <option value="1">Maruti</option>
+    <option value="2">Honda</option>
+    <option value="3">BMW</option>
+    <option value="4">Kia</option>
+  </select>
+</div>
+
+
+<h2>Lists</h2>
+Styling list and its items is very easy with Tripline CSS.<br>
+
+<ul class="tln-list">
+  <li>This</li>
+  <li>is</li>
+  <li>list</li>
+  <li>with</li>
+  <li>Tripline</li>
+</ul>
+
+
+
+<h2>Tooltips</h2>
+Tooltips Demo.<br>
+<p id="myDiv9">
+  &lt;div class="tln-tooltip"&gt;Hover Here<br>
+    &lt;span class="tln-text tln-red"&gt;This is tooltip hai guys&lt;/span&gt;<br>
+  &lt;/div&gt;
+</p>
+<br><br>
+<div class="tln-tooltip">Hover Here
+  <span class="tln-text tln-red">This is tooltip hai guys</span>
+</div>
+
+
+
+
+
+
+
+
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+w3CodeColor(document.getElementById("myDiv"));
+w3CodeColor(document.getElementById("myDiv1"));
+w3CodeColor(document.getElementById("myDiv2"));
+w3CodeColor(document.getElementById("myDiv4"));
+w3CodeColor(document.getElementById("myDiv5"));
+w3CodeColor(document.getElementById("myDiv6"));
+w3CodeColor(document.getElementById("myDiv7"));
+w3CodeColor(document.getElementById("myDiv8"));
+w3CodeColor(document.getElementById("myDiv9"));
+
+w3CodeColor(document.getElementById("myDiv10"));
+
+function w3CodeColor(elmnt, mode) {
+  var lang = (mode || "html");
+  var elmntObj = (document.getElementById(elmnt) || elmnt);
+  var elmntTxt = elmntObj.innerHTML;
+  var tagcolor = "mediumblue";
+  var tagnamecolor = "brown";
+  var attributecolor = "red";
+  var attributevaluecolor = "mediumblue";
+  var commentcolor = "green";
+  var cssselectorcolor = "brown";
+  var csspropertycolor = "red";
+  var csspropertyvaluecolor = "mediumblue";
+  var cssdelimitercolor = "black";
+  var cssimportantcolor = "red";
+  var jscolor = "black";
+  var jskeywordcolor = "mediumblue";
+  var jsstringcolor = "brown";
+  var jsnumbercolor = "red";
+  var jspropertycolor = "black";
+  elmntObj.style.fontFamily = "Consolas,'Courier New', monospace";
+  if (!lang) {lang = "html"; }
+  if (lang == "html") {elmntTxt = htmlMode(elmntTxt);}
+  if (lang == "css") {elmntTxt = cssMode(elmntTxt);}
+  if (lang == "js") {elmntTxt = jsMode(elmntTxt);}
+  elmntObj.innerHTML = elmntTxt;
+
+  function extract(str, start, end, func, repl) {
+    var s, e, d = "", a = [];
+    while (str.search(start) > -1) {
+      s = str.search(start);
+      e = str.indexOf(end, s);
+      if (e == -1) {e = str.length;}
+      if (repl) {
+        a.push(func(str.substring(s, e + (end.length))));
+        str = str.substring(0, s) + repl + str.substr(e + (end.length));
+      } else {
+        d += str.substring(0, s);
+        d += func(str.substring(s, e + (end.length)));
+        str = str.substr(e + (end.length));
+      }
+    }
+    this.rest = d + str;
+    this.arr = a;
+  }
+  function htmlMode(txt) {
+    var rest = txt, done = "", php, comment, angular, startpos, endpos, note, i;
+    comment = new extract(rest, "&lt;!--", "--&gt;", commentMode, "W3HTMLCOMMENTPOS");
+    rest = comment.rest;
+    while (rest.indexOf("&lt;") > -1) {
+      note = "";
+      startpos = rest.indexOf("&lt;");
+      if (rest.substr(startpos, 9).toUpperCase() == "&LT;STYLE") {note = "css";}
+      if (rest.substr(startpos, 10).toUpperCase() == "&LT;SCRIPT") {note = "javascript";}
+      endpos = rest.indexOf("&gt;", startpos);
+      if (endpos == -1) {endpos = rest.length;}
+      done += rest.substring(0, startpos);
+      done += tagMode(rest.substring(startpos, endpos + 4));
+      rest = rest.substr(endpos + 4);
+      if (note == "css") {
+        endpos = rest.indexOf("&lt;/style&gt;");
+        if (endpos > -1) {
+          done += cssMode(rest.substring(0, endpos));
+          rest = rest.substr(endpos);
+        }
+      }
+      if (note == "javascript") {
+        endpos = rest.indexOf("&lt;/script&gt;");
+        if (endpos > -1) {
+          done += jsMode(rest.substring(0, endpos));
+          rest = rest.substr(endpos);
+        }
+      }
+    }
+    rest = done + rest;
+    for (i = 0; i < comment.arr.length; i++) {
+        rest = rest.replace("W3HTMLCOMMENTPOS", comment.arr[i]);
+    }
+    return rest;
+  }
+  function tagMode(txt) {
+    var rest = txt, done = "", startpos, endpos, result;
+    while (rest.search(/(\s|<br>)/) > -1) {
+      startpos = rest.search(/(\s|<br>)/);
+      endpos = rest.indexOf("&gt;");
+      if (endpos == -1) {endpos = rest.length;}
+      done += rest.substring(0, startpos);
+      done += attributeMode(rest.substring(startpos, endpos));
+      rest = rest.substr(endpos);
+    }
+    result = done + rest;
+    result = "<span style=color:" + tagcolor + ">&lt;</span>" + result.substring(4);
+    if (result.substr(result.length - 4, 4) == "&gt;") {
+      result = result.substring(0, result.length - 4) + "<span style=color:" + tagcolor + ">&gt;</span>";
+    }
+    return "<span style=color:" + tagnamecolor + ">" + result + "</span>";
+  }
+  function attributeMode(txt) {
+    var rest = txt, done = "", startpos, endpos, singlefnuttpos, doublefnuttpos, spacepos;
+    while (rest.indexOf("=") > -1) {
+      endpos = -1;
+      startpos = rest.indexOf("=");
+      singlefnuttpos = rest.indexOf("'", startpos);
+      doublefnuttpos = rest.indexOf('"', startpos);
+      spacepos = rest.indexOf(" ", startpos + 2);
+      if (spacepos > -1 && (spacepos < singlefnuttpos || singlefnuttpos == -1) && (spacepos < doublefnuttpos || doublefnuttpos == -1)) {
+        endpos = rest.indexOf(" ", startpos);
+      } else if (doublefnuttpos > -1 && (doublefnuttpos < singlefnuttpos || singlefnuttpos == -1) && (doublefnuttpos < spacepos || spacepos == -1)) {
+        endpos = rest.indexOf('"', rest.indexOf('"', startpos) + 1);
+      } else if (singlefnuttpos > -1 && (singlefnuttpos < doublefnuttpos || doublefnuttpos == -1) && (singlefnuttpos < spacepos || spacepos == -1)) {
+        endpos = rest.indexOf("'", rest.indexOf("'", startpos) + 1);
+      }
+      if (!endpos || endpos == -1 || endpos < startpos) {endpos = rest.length;}
+      done += rest.substring(0, startpos);
+      done += attributeValueMode(rest.substring(startpos, endpos + 1));
+      rest = rest.substr(endpos + 1);
+    }
+    return "<span style=color:" + attributecolor + ">" + done + rest + "</span>";
+  }
+  function attributeValueMode(txt) {
+    return "<span style=color:" + attributevaluecolor + ">" + txt + "</span>";
+  }
+  function commentMode(txt) {
+    return "<span style=color:" + commentcolor + ">" + txt + "</span>";
+  }
+  function cssMode(txt) {
+    var rest = txt, done = "", s, e, comment, i, midz, c, cc;
+    comment = new extract(rest, /\/\*/, "*/", commentMode, "W3CSSCOMMENTPOS");
+    rest = comment.rest;
+    while (rest.search("{") > -1) {
+      s = rest.search("{");
+      midz = rest.substr(s + 1);
+      cc = 1;
+      c = 0;
+      for (i = 0; i < midz.length; i++) {
+        if (midz.substr(i, 1) == "{") {cc++; c++}
+        if (midz.substr(i, 1) == "}") {cc--;}
+        if (cc == 0) {break;}
+      }
+      if (cc != 0) {c = 0;}
+      e = s;
+      for (i = 0; i <= c; i++) {
+        e = rest.indexOf("}", e + 1);
+      }
+      if (e == -1) {e = rest.length;}
+      done += rest.substring(0, s + 1);
+      done += cssPropertyMode(rest.substring(s + 1, e));
+      rest = rest.substr(e);
+    }
+    rest = done + rest;
+    rest = rest.replace(/{/g, "<span style=color:" + cssdelimitercolor + ">{</span>");
+    rest = rest.replace(/}/g, "<span style=color:" + cssdelimitercolor + ">}</span>");
+    for (i = 0; i < comment.arr.length; i++) {
+        rest = rest.replace("W3CSSCOMMENTPOS", comment.arr[i]);
+    }
+    return "<span style=color:" + cssselectorcolor + ">" + rest + "</span>";
+  }
+  function cssPropertyMode(txt) {
+    var rest = txt, done = "", s, e, n, loop;
+    if (rest.indexOf("{") > -1 ) { return cssMode(rest); }
+    while (rest.search(":") > -1) {
+      s = rest.search(":");
+      loop = true;
+      n = s;
+      while (loop == true) {
+        loop = false;
+        e = rest.indexOf(";", n);
+        if (rest.substring(e - 5, e + 1) == "&nbsp;") {
+          loop = true;
+          n = e + 1;
+        }
+      }
+      if (e == -1) {e = rest.length;}
+      done += rest.substring(0, s);
+      done += cssPropertyValueMode(rest.substring(s, e + 1));
+      rest = rest.substr(e + 1);
+    }
+    return "<span style=color:" + csspropertycolor + ">" + done + rest + "</span>";
+  }
+  function cssPropertyValueMode(txt) {
+    var rest = txt, done = "", s;
+    rest = "<span style=color:" + cssdelimitercolor + ">:</span>" + rest.substring(1);
+    while (rest.search(/!important/i) > -1) {
+      s = rest.search(/!important/i);
+      done += rest.substring(0, s);
+      done += cssImportantMode(rest.substring(s, s + 10));
+      rest = rest.substr(s + 10);
+    }
+    result = done + rest;
+    if (result.substr(result.length - 1, 1) == ";" && result.substr(result.length - 6, 6) != "&nbsp;" && result.substr(result.length - 4, 4) != "&lt;" && result.substr(result.length - 4, 4) != "&gt;" && result.substr(result.length - 5, 5) != "&amp;") {
+      result = result.substring(0, result.length - 1) + "<span style=color:" + cssdelimitercolor + ">;</span>";
+    }
+    return "<span style=color:" + csspropertyvaluecolor + ">" + result + "</span>";
+  }
+  function cssImportantMode(txt) {
+    return "<span style=color:" + cssimportantcolor + ";font-weight:bold;>" + txt + "</span>";
+  }
+  function jsMode(txt) {
+    var rest = txt, done = "", esc = [], i, cc, tt = "", sfnuttpos, dfnuttpos, compos, comlinepos, keywordpos, numpos, mypos, dotpos, y;
+    for (i = 0; i < rest.length; i++)  {
+      cc = rest.substr(i, 1);
+      if (cc == "\\") {
+        esc.push(rest.substr(i, 2));
+        cc = "W3JSESCAPE";
+        i++;
+      }
+      tt += cc;
+    }
+    rest = tt;
+    y = 1;
+    while (y == 1) {
+      sfnuttpos = getPos(rest, "'", "'", jsStringMode);
+      dfnuttpos = getPos(rest, '"', '"', jsStringMode);
+      compos = getPos(rest, /\/\*/, "*/", commentMode);
+      comlinepos = getPos(rest, /\/\//, "<br>", commentMode);
+      numpos = getNumPos(rest, jsNumberMode);
+      keywordpos = getKeywordPos("js", rest, jsKeywordMode);
+      dotpos = getDotPos(rest, jsPropertyMode);
+      if (Math.max(numpos[0], sfnuttpos[0], dfnuttpos[0], compos[0], comlinepos[0], keywordpos[0], dotpos[0]) == -1) {break;}
+      mypos = getMinPos(numpos, sfnuttpos, dfnuttpos, compos, comlinepos, keywordpos, dotpos);
+      if (mypos[0] == -1) {break;}
+      if (mypos[0] > -1) {
+        done += rest.substring(0, mypos[0]);
+        done += mypos[2](rest.substring(mypos[0], mypos[1]));
+        rest = rest.substr(mypos[1]);
+      }
+    }
+    rest = done + rest;
+    for (i = 0; i < esc.length; i++) {
+      rest = rest.replace("W3JSESCAPE", esc[i]);
+    }
+    return "<span style=color:" + jscolor + ">" + rest + "</span>";
+  }
+  function jsStringMode(txt) {
+    return "<span style=color:" + jsstringcolor + ">" + txt + "</span>";
+  }
+  function jsKeywordMode(txt) {
+    return "<span style=color:" + jskeywordcolor + ">" + txt + "</span>";
+  }
+  function jsNumberMode(txt) {
+    return "<span style=color:" + jsnumbercolor + ">" + txt + "</span>";
+  }
+  function jsPropertyMode(txt) {
+    return "<span style=color:" + jspropertycolor + ">" + txt + "</span>";
+  }
+  function getDotPos(txt, func) {
+    var x, i, j, s, e, arr = [".","<", " ", ";", "(", "+", ")", "[", "]", ",", "&", ":", "{", "}", "/" ,"-", "*", "|", "%"];
+    s = txt.indexOf(".");
+    if (s > -1) {
+      x = txt.substr(s + 1);
+      for (j = 0; j < x.length; j++) {
+        cc = x[j];
+        for (i = 0; i < arr.length; i++) {
+          if (cc.indexOf(arr[i]) > -1) {
+            e = j;
+            return [s + 1, e + s + 1, func];
+          }
+        }
+      }
+    }
+    return [-1, -1, func];
+  }
+  function getMinPos() {
+    var i, arr = [];
+    for (i = 0; i < arguments.length; i++) {
+      if (arguments[i][0] > -1) {
+        if (arr.length == 0 || arguments[i][0] < arr[0]) {arr = arguments[i];}
+      }
+    }
+    if (arr.length == 0) {arr = arguments[i];}
+    return arr;
+  }
+  function getKeywordPos(typ, txt, func) {
+    var words, i, pos, rpos = -1, rpos2 = -1, patt;
+    if (typ == "js") {
+      words = ["abstract","arguments","boolean","break","byte","case","catch","char","class","const","continue","debugger","default","delete",
+      "do","double","else","enum","eval","export","extends","false","final","finally","float","for","function","goto","if","implements","import",
+      "in","instanceof","int","interface","let","long","NaN","native","new","null","package","private","protected","public","return","short","static",
+      "super","switch","synchronized","this","throw","throws","transient","true","try","typeof","var","void","volatile","while","with","yield"];
+    }
+    for (i = 0; i < words.length; i++) {
+      pos = txt.indexOf(words[i]);
+      if (pos > -1) {
+        patt = /\W/g;
+        if (txt.substr(pos + words[i].length,1).match(patt) && txt.substr(pos - 1,1).match(patt)) {
+          if (pos > -1 && (rpos == -1 || pos < rpos)) {
+            rpos = pos;
+            rpos2 = rpos + words[i].length;
+          }
+        }
+      }
+    }
+    return [rpos, rpos2, func];
+  }
+  function getPos(txt, start, end, func) {
+    var s, e;
+    s = txt.search(start);
+    e = txt.indexOf(end, s + (end.length));
+    if (e == -1) {e = txt.length;}
+    return [s, e + (end.length), func];
+  }
+  function getNumPos(txt, func) {
+    var arr = ["<br>", " ", ";", "(", "+", ")", "[", "]", ",", "&", ":", "{", "}", "/" ,"-", "*", "|", "%", "="], i, j, c, startpos = 0, endpos, word;
+    for (i = 0; i < txt.length; i++) {
+      for (j = 0; j < arr.length; j++) {
+        c = txt.substr(i, arr[j].length);
+        if (c == arr[j]) {
+          if (c == "-" && (txt.substr(i - 1, 1) == "e" || txt.substr(i - 1, 1) == "E")) {
+            continue;
+          }
+          endpos = i;
+          if (startpos < endpos) {
+            word = txt.substring(startpos, endpos);
+            if (!isNaN(word)) {return [startpos, endpos, func];}
+          }
+          i += arr[j].length;
+          startpos = i;
+          i -= 1;
+          break;
+        }
+      }
+    }
+    return [-1, -1, func];
+  }
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
